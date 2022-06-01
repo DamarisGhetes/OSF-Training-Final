@@ -1,0 +1,3 @@
+<ismodule template="/components/content/contentAsset" name="producttile" attribute="pid" />
+
+<isprint value="${1}"/>

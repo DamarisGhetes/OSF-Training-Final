@@ -1,0 +1,2 @@
+<isset name="sessionVar" value="test rendered template and included template" scope = "session"/>
+<isprint value="${session.custom.sessionVar}"/>

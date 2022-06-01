@@ -1,0 +1,3 @@
+${Resource.msg("ceva.msg", 'prod', null)}
+<br/>
+${Resource.msgf("ceva.msgf", 'prod', null, 'msgf')}

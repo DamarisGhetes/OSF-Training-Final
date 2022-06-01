@@ -1,0 +1,9 @@
+<isset name="sessionVar" value="it's session!" scope = "session"/>
+<isprint value="${session.custom.sessionVar}" encoding="off"/>
+
+<isset name="requestVar" value="${1}" scope = "request"/>
+<isset name="requestVar" value="${request.custom.requestVar + 1}" scope = "request"/>
+<isprint value="${request.custom.requestVar}" style="INTEGER"/>
+
+<isset name="pageVar" value="it's page!" scope = "page"/>
+<isprint value="${pageVar}" />
